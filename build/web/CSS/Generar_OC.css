@@ -1,0 +1,206 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e8e8e8;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #f84245, #f73630, #ff1515);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: white; /*COLOR CONTENIDO BAJO EL ENCABEZADO*/
+}
+
+.encabezadoAdmin{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right,  #1452CF, #14A7CF, #14C7CF, #1452CF);
+    padding: 20px;
+    /*margin-bottom: 20px;*/
+}
+
+.textEncabezadoAdmin{
+    text-align: center;
+    font-size: 23px;
+    font-family: sans-serif
+}
+
+.holaAdmin{
+    font-size: 20px;
+}
+
+.columna{
+    border-right: 5x solid black;
+}
+
+.menu-lateral{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.menu-lateral .boton-seleccionado{
+    background-color: greenyellow;
+}
+
+.menu-lateral button{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 0px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    border-bottom: 1px solid greenyellow;
+}
+
+.menu-lateral button:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+.cruz{
+    margin-top: -9px;
+}
+
+.adminbaj{
+    margin-top: 9px;
+}
+
+.movAdmin{ /*MOV SALIDA*/
+    margin-left: -100px;
+}
+
+h2{
+    padding-left: 20px;
+}
+
+.formularioVista{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    background-color: #D6DDE8;
+    padding: 30px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.botonPagina{
+    background-color: #1452CF;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    border: 0;
+    padding: 10px;
+    margin-top: -5px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.botonPagina:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+/*POPUT 1 DESDE AQUI*/
+
+.formulario-emergente {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+/* Estilo para el contenido dentro del popup */
+.contenido-formulario {
+    background-color: white;
+    /*width: 40%;*/
+    /* Fondo blanco */
+    padding: 20px;
+    /* Espaciado alrededor del contenido */
+    border-radius: 8px;
+    /* Esquinas redondeadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra sutil */
+    position: absolute;
+    /* Ajuste para centrado real */
+    text-align: center;
+    /* Centrar el texto */
+    top: 50%;
+    /* Centrado vertical */
+    left: 50%;
+    /* Centrado horizontal */
+    transform: translate(-50%, -50%);
+    /* Ajuste para centrado real */
+}
+
+/* Estilo para el botón de cierre ('x') */
+.cerrar {
+    position: absolute;
+    /* Posicionado dentro del contenido */
+    top: 10px;
+    /* Posicionado desde arriba */
+    right: 15px;
+    /* Posicionado desde la derecha */
+    font-size: 20px;
+    /* Tamaño de fuente */
+    font-weight: bold;
+    /* Texto en negrita */
+    cursor: pointer;
+    /* Cursor de puntero al pasar el mouse */
+}
+
+
+.botonActualizarProduc{
+    background-color: #1452CF;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    border: 0;  
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.botonActualizarProduc:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+.botonEliminarProduct{
+    background-color: #1452CF;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    border: 0;  
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.botonEliminarProduct:hover{
+    background-color: red;
+    color: black;
+}
+
+.buttonOrden{
+    background-color: #1452CF;
+    color: white;
+    border:none;
+    font-family: Helvetica, sans-serif;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.buttonOrden:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+.htext{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.inventario{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    background-color: #D6DDE8; /*Color contenido form o CRUD*/
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.trcolr{
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,48 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right,  #1452CF, #14A7CF, #14C7CF, #1452CF);
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background: linear-gradient(to right,  #1452CF, #14A7CF, #14C7CF, #1452CF);
+}
+
+/* Estilo para el mensaje de éxito */
+.mensaje {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h3 {
+    color: #007bff;
+}
+
+p {
+    margin-top: 10px;
+    color: #555;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #6ba4e2;
+    color: white;
+}

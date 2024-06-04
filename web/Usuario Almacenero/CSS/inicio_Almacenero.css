@@ -1,0 +1,214 @@
+html{
+    height:100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+    /* fallback for old browsers */
+    background: #fccb90;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #f84245, #f73630, #ff1515);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right,  #1452CF, #14A7CF, #14C7CF, #1452CF);
+}
+
+.col input{
+    margin-bottom:20px ;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 60%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    border: 0;
+    margin: 20px;
+}
+
+.col .input-boton{
+    background-color: #1670EA; /*COLOR DE BOTON INGRESAR*/
+    border-radius: 5px;
+    border: 0;
+}
+
+.input-boton:hover{
+    color: black;
+    background-color: greenyellow;
+}
+
+.col .input-condiciones{
+    margin-bottom: 0;
+    width: 20px;
+    margin-right: 25px;
+}
+
+.col .col-condiciones{
+    margin-bottom: 5px;
+}
+
+.columna{
+    border-right: 5px solid black;
+}
+
+.container{
+    background-color: white;
+    margin-top:115px ;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 120px;
+}
+
+img{
+    width: 450px;
+    margin: 5px;
+    margin-left: 30px;
+}
+
+.col h1{
+    font-size: 80px;
+    color: black;
+}
+.col h2{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 40px;
+}
+
+label{
+    font-size: 20px;
+}
+
+i.usuario{
+    font-size: 30px;
+    color: black;
+    margin-right: 44px;
+}
+
+i.contraseña{
+    font-size: 30px;
+    color: black;
+    margin-right: 42px;
+}
+
+.col a{
+    color: black;
+    text-decoration: none;
+}
+
+h1.titulo {
+    font-size: 60px;
+    color: black;
+    margin-left: 10px;
+}
+
+h1.txt {
+    font-size: 30px;
+    color: black;
+    margin-left: 22px;
+}
+
+.movcontra {
+    color: black;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+.wsp {
+    margin-left: 1750px;
+}
+
+p.soporte{
+    margin-top: -60px;
+    margin-left: 1680px;
+}
+
+/* Estilo para el contenedor del popup */
+.formulario-emergente {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para el contenido dentro del popup */
+.contenido-formulario {
+    background-color: white;
+    /* Fondo blanco */
+    padding: 20px;
+    /* Espaciado alrededor del contenido */
+    border-radius: 8px;
+    /* Esquinas redondeadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra sutil */
+    position: absolute;
+    /* Ajuste para centrado real */
+    text-align: center;
+    /* Centrar el texto */
+    top: 50%;
+    /* Centrado vertical */
+    left: 50%;
+    /* Centrado horizontal */
+    transform: translate(-50%, -50%);
+    /* Ajuste para centrado real */
+}
+
+/* Estilo para el botón de cierre ('x') */
+.cerrar {
+    position: absolute;
+    /* Posicionado dentro del contenido */
+    top: 10px;
+    /* Posicionado desde arriba */
+    right: 15px;
+    /* Posicionado desde la derecha */
+    font-size: 20px;
+    /* Tamaño de fuente */
+    font-weight: bold;
+    /* Texto en negrita */
+    cursor: pointer;
+    /* Cursor de puntero al pasar el mouse */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.colorb {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.colorb:hover{
+    color: greenyellow;
+}
+
+.movcontra:hover{
+    color: green;
+}
+
+.letra{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+}
+
+.letra2{
+    font-family: 'Arial';
+    font-size: 15px;
+}
+
+.upmodel{
+    margin-inline: 0px;
+}

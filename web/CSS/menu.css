@@ -1,0 +1,201 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e8e8e8;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #f84245, #f73630, #ff1515);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: white; /*COLOR CONTENIDO BAJO EL ENCABEZADO*/
+}
+
+.encabezadoAdmin{
+    background: linear-gradient(to right,  #1452CF, #14A7CF, #14C7CF, #1452CF);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;   
+}
+
+.textEncabezadoAdmin{
+    text-align: center;
+    font-size: 23px;
+    font-family: sans-serif
+}
+
+.columna{
+    border-right: 5px solid black;
+}
+
+.menu-lateral button{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 0px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    border-bottom: 1px solid greenyellow;
+}
+
+.menu-lateral button:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+.cruz{
+    margin-top: -9px;
+}
+
+.adminbaj{
+    margin-top: 9px;
+}
+
+.nuevoo{
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.menu-lateral{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.menu-lateral .boton-seleccionado{
+    background-color: greenyellow;
+}
+
+.row .boton{  /* Boton Guardar*/
+    background-color: #1452CF;
+    border: 0;
+    margin: 20px;
+    padding: 10px;
+    width: 45%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    color: white;
+}
+
+.row .boton:hover{ /* Boton Guardar*/
+    background-color: greenyellow;
+    color: black;
+}
+
+.boton3{  /* Boton Personaliza*/
+    background-color: #1452CF;
+    border: 0;
+    margin: 20px;
+    padding: 10px;
+    width: 50%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    color: white;
+}
+
+.boton3:hover{ /* Boton Personaliza*/
+    background-color: greenyellow;
+    color: black;
+}
+
+.boton2{  /* Boton Terminar*/
+    background-color: #1452CF;
+    border: 0;
+    padding: 10px;
+    width: 40%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    color: white;
+}
+
+.boton2:hover{ /* Boton Terminar*/
+    background-color: greenyellow;
+    color: black;
+}
+
+.container .row{
+    padding: 10px;
+    margin: 20px;
+}
+
+
+.col-12{ /* Separación entre cuadros de Un Vistazo y Actividad - AQUI APLICA COLOR DA UN VISTAZO*/
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    height: 200px;
+}
+
+.borrador-rapido{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+.tbs2{
+    padding: 0%;
+    color: black;
+}
+
+.comienza,.siguiente,.acciones{
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    color: black;
+}
+
+.movcont{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    width: 60%;
+    height: 10%;
+}
+
+textarea{ /*Agrandar cuadro de actividad*/
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: 500px;
+    height: 30px;
+}
+
+.tams1{
+    width: 350px;
+    height: 40px;
+}
+
+.container i{
+    font-size: 32px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: blue;
+    margin-left: 10px;
+}
+
+.holaAdmin{
+    font-size: 20px;
+}
+
+.movAdmin{
+    margin-left: -20px;
+}
+
+.agrandvis{ /*Agrandar cuadro de actividades en progreso*/
+    border: blue;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
